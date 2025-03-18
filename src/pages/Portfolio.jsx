@@ -4,25 +4,25 @@ import Project from '../components/Project';
 const Portfolio = () => {
   const projects = [
     {
-      image: "/src/assets/images/project1.jpg",
+      image: "/my-portfolio//src/assets/images/project1.jpg",
       title: "Using Node.js and Inquirer to create a ReadMe File",
       deployedLink: "",
       githubLink: "https://github.com/dsfreehand/Module7Challenge"
     },
     {
-      image: "/src/assets/images/project2.jpg",
+      image: "/my-portfolio//src/assets/images/project2.jpg",
       title: "Using Node.js and SQL to Create and manipulate an Employee Database",
       deployedLink: "",
       githubLink: "https://github.com/dsfreehand/employee_tracker_db"
     },
     {
-      image: "/src/assets/images/project3.jpg",
+      image: "/my-portfolio//src/assets/images/project3.jpg",
       title: "Using Node.js and Inquirer to create and manipulate hypothetical vehicles",
       deployedLink: "",
       githubLink: "https://github.com/dsfreehand/choose_your_vehicle"
     },
     {
-      image: "/src/assets/images/BootcampPizza.jpg",
+      image: "/my-portfolio//src/assets/images/BootcampPizza.jpg",
       title: "Hypothetical Pizza Restaurant Website using LocalStorage for Order History",
       deployedLink: "https://p1t1-group3.github.io/ProjectOne/",
       githubLink: "https://github.com/p1t1-group3"

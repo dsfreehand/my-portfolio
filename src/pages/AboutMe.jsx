@@ -6,7 +6,7 @@ const AboutMe = () => {
     <section id="about-me">
       <div className="about-me-content">
         <img
-          src="src/assets/images/profile.jpg"
+          src="/my-portfolio/src/assets/images/profile.jpg"
           alt="Daniel Sisson"
           className="profile-img"
         />
