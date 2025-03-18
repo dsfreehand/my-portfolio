@@ -5,7 +5,7 @@ const Portfolio = () => {
   const projects = [
     {
       image: "/src/assets/images/project1.jpg",
-      title: "Creating a ReadMe File Using Node.js and Inquirer",
+      title: "Using Node.js and Inquirer to create a ReadMe File",
       deployedLink: "",
       githubLink: "https://github.com/dsfreehand/Module7Challenge"
     },
