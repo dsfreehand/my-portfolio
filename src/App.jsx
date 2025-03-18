@@ -14,6 +14,8 @@ const App = () => {
       <Header />
       <main>
         <Routes>
+          {/* Add a route for the root URL '/' that renders AboutMe by default */}
+          <Route path="/" element={<AboutMe />} />
           <Route path="/about" element={<AboutMe />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
