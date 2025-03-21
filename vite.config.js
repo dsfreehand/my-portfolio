@@ -7,7 +7,7 @@ const isNetlify = process.env.NETLIFY === "true";
 
 export default defineConfig({
   plugins: [react()],
-  base: isGitHubPages ? "/my-portfolio/" : isNetlify ? "/" : "/", // GitHub Pages uses /my-portfolio/ base, else use root
+  base: isGitHubPages ? "/my-portfolio/" : isNetlify ? "/" : "/",
   build: {
     outDir: "dist",
   },
